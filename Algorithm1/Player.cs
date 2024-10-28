@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -46,7 +47,49 @@ namespace Algorithm1
             int[] deltaY = new int[] {-1, 0, 1, 0 };
             int[] deltaX = new int[] { 0, -1, 0, 1};
 
-            bool
+            bool[,] found = new bool[_board.Size, _board.Size];
+            Pos[,] parent = new Pos[_board.Size, _board.Size];
+
+            Queue<Pos> q = new Queue<Pos>();
+            q.Enqueue(new Pos(PosY, PosX));
+            found[PosY, PosX] = true;
+            parent[PosY, PosX] = new Pos(PosY, PosX);
+
+
+            while (q.Count > 0)
+            {
+                Pos pos = q.Dequeue();
+                int nowY = pos.Y;
+                int nowX = pos.X;
+                for(int i = 0; i < 4; i++)
+                {
+                    int nextY = nowY+deltaY[i];
+                    int nextX = nowX+deltaX[i];
+
+                    if (nextX < 0 || nextX >= _board.Size || nextY < 0 || nextY >= _board.Size)
+                        continue;
+                    else if (_board.Tile[nextY, nextX] == Board.TileType.Wall)
+                        continue;
+                    if (found[nextY, nextX])
+                        continue;
+
+                    q.Enqueue(new Pos(nextY, nextX));
+                    found[nextY, nextX] = true;
+                    parent[nextY, nextX] = new Pos(nowY, nowX);
+                }
+            }
+
+            int y = _board.DestY;
+            int x = _board.DestX;
+            while (parent[y, x].Y != y || parent[y, x].X != x)
+            {
+                _points.Add(new Pos(y, x));
+                Pos pos = parent[y, x];
+                y = pos.Y;
+                x = pos.X;
+            }
+            _points.Add(new Pos(y, x));
+            _points.Reverse();
         }
 
         void RightHand()

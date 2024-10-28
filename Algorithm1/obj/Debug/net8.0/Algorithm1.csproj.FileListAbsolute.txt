@@ -12,3 +12,4 @@ C:\Users\PC\source\repos\Algorithm1\Algorithm1\obj\Debug\net8.0\refint\Algorithm
 C:\Users\PC\source\repos\Algorithm1\Algorithm1\obj\Debug\net8.0\Algorithm1.pdb
 C:\Users\PC\source\repos\Algorithm1\Algorithm1\obj\Debug\net8.0\Algorithm1.genruntimeconfig.cache
 C:\Users\PC\source\repos\Algorithm1\Algorithm1\obj\Debug\net8.0\ref\Algorithm1.dll
+C:\Users\PC\source\repos\Algorithm1\Algorithm1\obj\Debug\net8.0\Algorithm1.sourcelink.json
