@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{C498CC28-2E82-472F-B172-FC186D2ADBB5}|Algorithm1\\Algorithm1.csproj|solutionrelative:algorithm1\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C498CC28-2E82-472F-B172-FC186D2ADBB5}|Algorithm1\\Algorithm1.csproj|c:\\users\\pc\\source\\repos\\algorithm1\\algorithm1\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C498CC28-2E82-472F-B172-FC186D2ADBB5}|Algorithm1\\Algorithm1.csproj|solutionrelative:algorithm1\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C498CC28-2E82-472F-B172-FC186D2ADBB5}|Algorithm1\\Algorithm1.csproj|c:\\users\\pc\\source\\repos\\algorithm1\\algorithm1\\priorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C498CC28-2E82-472F-B172-FC186D2ADBB5}|Algorithm1\\Algorithm1.csproj|solutionrelative:algorithm1\\priorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C498CC28-2E82-472F-B172-FC186D2ADBB5}|Algorithm1\\Algorithm1.csproj|c:\\users\\pc\\source\\repos\\algorithm1\\algorithm1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C498CC28-2E82-472F-B172-FC186D2ADBB5}|Algorithm1\\Algorithm1.csproj|solutionrelative:algorithm1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D103BA57-04A0-4939-BE34-D0238FC3D62F}|Exercise\\Exercise.csproj|c:\\users\\pc\\source\\repos\\algorithm1\\exercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D103BA57-04A0-4939-BE34-D0238FC3D62F}|Exercise\\Exercise.csproj|solutionrelative:exercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C498CC28-2E82-472F-B172-FC186D2ADBB5}|Algorithm1\\Algorithm1.csproj|c:\\users\\pc\\source\\repos\\algorithm1\\algorithm1\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C498CC28-2E82-472F-B172-FC186D2ADBB5}|Algorithm1\\Algorithm1.csproj|solutionrelative:algorithm1\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +30,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PriorityQueue.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Algorithm1\\Algorithm1\\PriorityQueue.cs",
+              "RelativeDocumentMoniker": "Algorithm1\\PriorityQueue.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Algorithm1\\Algorithm1\\PriorityQueue.cs",
+              "RelativeToolTip": "Algorithm1\\PriorityQueue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T09:47:58.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Algorithm1\\Exercise\\Program.cs",
+              "RelativeDocumentMoniker": "Exercise\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Algorithm1\\Exercise\\Program.cs",
+              "RelativeToolTip": "Exercise\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T12:44:36.972Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -32,9 +66,10 @@
               "RelativeDocumentMoniker": "Algorithm1\\Program.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\Algorithm1\\Algorithm1\\Program.cs",
               "RelativeToolTip": "Algorithm1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T09:31:00.428Z"
+              "WhenOpened": "2024-10-23T09:31:00.428Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,20 +79,20 @@
               "RelativeDocumentMoniker": "Algorithm1\\Player.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\Algorithm1\\Algorithm1\\Player.cs",
               "RelativeToolTip": "Algorithm1\\Player.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T09:30:59.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Board.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Algorithm1\\Algorithm1\\Board.cs",
               "RelativeDocumentMoniker": "Algorithm1\\Board.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\Algorithm1\\Algorithm1\\Board.cs",
               "RelativeToolTip": "Algorithm1\\Board.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAgwMUAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T08:51:04.011Z"
             }

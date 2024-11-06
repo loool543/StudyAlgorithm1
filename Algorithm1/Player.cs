@@ -47,7 +47,7 @@ namespace Algorithm1
             int[] deltaY = new int[] {-1, 0, 1, 0 };
             int[] deltaX = new int[] { 0, -1, 0, 1};
 
-            bool[,] found = new bool[_board.Size, _board.Size];
+            bool[,] found = new bool[_board.Size, _board.Size]; 
             Pos[,] parent = new Pos[_board.Size, _board.Size];
 
             Queue<Pos> q = new Queue<Pos>();

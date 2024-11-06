@@ -12,3 +12,4 @@ C:\Users\PC\source\repos\Algorithm1\Exercise\obj\Debug\net8.0\refint\Exercise.dl
 C:\Users\PC\source\repos\Algorithm1\Exercise\obj\Debug\net8.0\Exercise.pdb
 C:\Users\PC\source\repos\Algorithm1\Exercise\obj\Debug\net8.0\Exercise.genruntimeconfig.cache
 C:\Users\PC\source\repos\Algorithm1\Exercise\obj\Debug\net8.0\ref\Exercise.dll
+C:\Users\PC\source\repos\Algorithm1\Exercise\obj\Debug\net8.0\Exercise.sourcelink.json
